@@ -53,7 +53,7 @@ struct FactsViewNQ: View {
                         .frame(height: 30)
                         .overlay {
                             Text("Read the full")
-                                .withFont(size: 15.6, weight: .regular, color: .hex("2A2345"))
+                                .withFont(size: 15.6, weight: .regular, color: .hex("0D0D0D"))
                         }
                 }.padding(.bottom)
                 
@@ -89,7 +89,7 @@ struct FactsViewNQ: View {
         VStack {
             if let fact = selectedFact {
                 Text(fact.title)
-                    .withFont(size: 22, weight: .regular, color: .hex("55E4A2"))
+                    .withFont(size: 22, weight: .regular, color: .hex("63E695"))
                     .padding(.top, 12)
                 
                 Text(fact.content)
@@ -102,7 +102,7 @@ struct FactsViewNQ: View {
                 VStack(spacing: 0) {
                     Rectangle()
                         .frame(height: 2)
-                        .foregroundColor(.hex("55E4A2"))
+                        .foregroundColor(.hex("63E695"))
                     
                     Rectangle()
                         .foregroundColor(.hex("2A2740"))

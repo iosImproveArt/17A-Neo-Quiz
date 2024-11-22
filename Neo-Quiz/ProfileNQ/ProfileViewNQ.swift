@@ -94,7 +94,7 @@ struct ProfileViewNQ: View {
                         .aspectRatio(contentMode: .fit)
                         .overlay {
                             Text("Save")
-                                .withFont(size: 18.6, weight: .regular, color: .hex("2A2345"))
+                                .withFont(size: 18.6, weight: .regular, color: .hex("0D0D0D"))
                         }
                 }
                 
@@ -111,7 +111,7 @@ struct ProfileViewNQ: View {
                         .aspectRatio(contentMode: .fit)
                         .overlay {
                             Text("Delete")
-                                .withFont(size: 18.6, weight: .regular, color: .hex("2A2345"))
+                                .withFont(size: 18.6, weight: .regular, color: .hex("0D0D0D"))
                         }
                 }
             }

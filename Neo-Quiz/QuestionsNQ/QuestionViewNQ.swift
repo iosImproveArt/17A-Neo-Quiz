@@ -99,8 +99,9 @@ struct QuestionViewNQ: View {
                 .overlay {
                     Text(vm.currentQuestion.question)
                         .withFont(size: 18, weight: .medium, color: .black)
-                        .padding(.leading, 100)
-                        .padding(.trailing)
+                        .padding(.trailing, 100)
+                        .padding(.leading, 50)
+                        .padding(.top)
                 }
             
             ForEach(Array(vm.currentQuestion.answerOptions.enumerated()), id: \.element) { index, answer in
@@ -229,7 +230,7 @@ struct QuestionViewNQ: View {
                                 .frame(height: 40)
                                 .overlay {
                                     Text("MAIN MENU")
-                                        .withFont(size: 18.46, weight: .regular, color: .hex("2A2345"))
+                                        .withFont(size: 18.46, weight: .regular, color: .hex("0D0D0D"))
                                 }
                         }.padding(40)
                     }
@@ -288,7 +289,7 @@ struct QuestionViewNQ: View {
                                 .frame(height: 40)
                                 .overlay {
                                     Text("MAIN MENU")
-                                        .withFont(size: 18.46, weight: .regular, color: .hex("2A2345"))
+                                        .withFont(size: 18.46, weight: .regular, color: .hex("0D0D0D"))
                                 }
                         }.padding(40)
                     }
