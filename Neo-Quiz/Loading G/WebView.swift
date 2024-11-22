@@ -5,7 +5,7 @@ import SwiftUI
 import WebKit
 
 struct WebViewContainer: UIViewRepresentable {
-    var jniefr = 235352
+    
     var urlString: String
     
     func makeUIView(context: Context) -> WKWebView {

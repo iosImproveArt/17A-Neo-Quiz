@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct QuestionView: View {
+struct QuestionViewNQ: View {
     @Environment(\.dismiss) var dismiss
-    @StateObject var vm: QuestionViewModel
+    @StateObject var vm: QuestionViewModelNQ
+    
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
     
     init(type: GameType) {
-        _vm = StateObject(wrappedValue: QuestionViewModel(typeOfGame: type))
+        _vm = StateObject(wrappedValue: QuestionViewModelNQ(typeOfGame: type))
     }
     
     var body: some View {
@@ -289,5 +298,5 @@ struct QuestionView: View {
 }
 
 #Preview {
-    QuestionView(type: .withC)
+    QuestionViewNQ(type: .withC)
 }

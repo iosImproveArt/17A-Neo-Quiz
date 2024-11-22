@@ -2,16 +2,25 @@
 
 import SwiftUI
 
-struct PrivacyViewSQ: View {
+struct PrivacyViewNQ: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
     var fromMainView: Bool = false
-    var jniefr = 235352
+    
     @AppStorage("urlString") var urlString = ""
     
     var bg: Color {
         urlString.isEmpty ? Color.hex("#2A2740"): .black
+    }
+    
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
     }
     
     var body: some View {
@@ -98,5 +107,5 @@ struct PrivacyViewSQ: View {
 }
 
 #Preview {
-    PrivacyViewSQ(showLoading: .constant(true), fromMainView: false)
+    PrivacyViewNQ(showLoading: .constant(true), fromMainView: false)
 }

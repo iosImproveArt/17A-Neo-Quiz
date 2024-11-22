@@ -7,7 +7,17 @@
 
 import SwiftUI
 
-struct QuestionPickView: View {
+struct QuestionPickViewNQ: View {
+    
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
+    
     var body: some View {
         VStack(spacing: 40) {
             Spacer()
@@ -16,20 +26,20 @@ struct QuestionPickView: View {
                 .withFont(size: 30.57, weight: .medium)
             
             NavigationLink {
-                QuestionView(type: .oneP)
+                QuestionViewNQ(type: .oneP)
             } label: {
                 Image("1p")
             }
 
             
             NavigationLink {
-                QuestionView(type: .withC)
+                QuestionViewNQ(type: .withC)
             } label: {
                 Image("wc")
             }
             
             NavigationLink {
-                QuestionView(type: .withF)
+                QuestionViewNQ(type: .withF)
             } label: {
                 Image("wf")
             }
@@ -41,5 +51,5 @@ struct QuestionPickView: View {
 }
 
 #Preview {
-    ContentView(showLoading: false, selectedTab: .quiz)
+    ContentViewNQ(showLoading: false, selectedTab: .quiz)
 }

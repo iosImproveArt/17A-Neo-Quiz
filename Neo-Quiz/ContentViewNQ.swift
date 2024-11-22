@@ -1,10 +1,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewNQ: View {
     @AppStorage("notificationsAvalible") var notificationsAvalible = true
     @State var showLoading = true
     @State var selectedTab: Tabs = .quiz
+    
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
     
     var body: some View {
         ZStack {
@@ -15,11 +24,11 @@ struct ContentView: View {
                         
                         switch selectedTab {
                         case .quiz:
-                            QuestionPickView()
+                            QuestionPickViewNQ()
                         case .profile:
-                            ProfileView()
+                            ProfileViewNQ()
                         case .facts:
-                            FactsView()
+                            FactsViewNQ()
                         }
                         tapBar
                     }.background(2, padding: 0)
@@ -37,7 +46,7 @@ struct ContentView: View {
     private var topBar: some View {
         HStack {
             NavigationLink {
-                PrivacyViewSQ(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewNQ(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy policy")
                     .withFont(size: 16, weight: .light)
@@ -48,9 +57,9 @@ struct ContentView: View {
             Button {
                 notificationsAvalible.toggle()
                 if notificationsAvalible {
-                    NotificationManager.shared.createDailyNotification()
+                    NotificationManagerNQ.shared.createDailyNotification()
                 } else {
-                    NotificationManager.shared.removePendingNotifications()
+                    NotificationManagerNQ.shared.removePendingNotifications()
                 }
             } label: {
                 Image("notification.label")
@@ -99,7 +108,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(showLoading: false)
+    ContentViewNQ(showLoading: false)
 }
 
 

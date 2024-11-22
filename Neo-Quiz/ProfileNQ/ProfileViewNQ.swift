@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ProfileView: View {
+struct ProfileViewNQ: View {
     @Environment(\.dismiss) var dismiss
     
     @State var userPhoto = ""
@@ -17,6 +17,14 @@ struct ProfileView: View {
     
     let fieldsColor = Color.hex("B35C5C")
     
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
     
     var body: some View {
         VStack {
@@ -152,7 +160,7 @@ struct ProfileView: View {
 }
 
 #Preview {
-    ContentView(showLoading: false, selectedTab: .profile)
+    ContentViewNQ(showLoading: false, selectedTab: .profile)
 }
 
 

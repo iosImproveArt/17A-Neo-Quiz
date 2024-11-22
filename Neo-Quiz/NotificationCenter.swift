@@ -1,12 +1,13 @@
 import UserNotifications
 
-class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
-    static let shared = NotificationManager()
+class NotificationManagerNQ: NSObject, UNUserNotificationCenterDelegate {
+    static let shared = NotificationManagerNQ()
     
     private override init() {
         super.init()
         UNUserNotificationCenter.current().delegate = self
     }
+    
     
     func createDailyNotification() {
         guard UserDefaults.standard.bool(forKey: "notificationsAvalible") else { return }

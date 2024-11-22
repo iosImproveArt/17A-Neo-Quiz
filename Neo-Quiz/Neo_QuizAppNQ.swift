@@ -8,12 +8,21 @@
 import SwiftUI
 
 @main
-struct Neo_QuizApp: App {
+struct Neo_QuizAppNQ: App {
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
+    
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentViewNQ()
                 .preferredColorScheme(.dark)
         }
     }

@@ -6,8 +6,17 @@
 //
 import SwiftUI
 
-class QuestionViewModel: ObservableObject {
+class QuestionViewModelNQ: ObservableObject {
     let typeOfGame: GameType
+    
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
     
     @AppStorage("userNickname") var player1 = "IamNewUser"
     @Published var player2 = ""

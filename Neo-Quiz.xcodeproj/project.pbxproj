@@ -9,41 +9,41 @@
 /* Begin PBXBuildFile section */
 		F695E8512CF0E32100338245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695E84B2CF0E32100338245 /* Preview Assets.xcassets */; };
 		F695E8522CF0E32100338245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695E84D2CF0E32100338245 /* Assets.xcassets */; };
-		F695E8532CF0E32100338245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E84E2CF0E32100338245 /* ContentView.swift */; };
-		F695E8542CF0E32100338245 /* Neo_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E84F2CF0E32100338245 /* Neo_QuizApp.swift */; };
-		F695E85B2CF0E44200338245 /* PrivacyViewSQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8582CF0E44200338245 /* PrivacyViewSQ.swift */; };
+		F695E8532CF0E32100338245 /* ContentViewNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E84E2CF0E32100338245 /* ContentViewNQ.swift */; };
+		F695E8542CF0E32100338245 /* Neo_QuizAppNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E84F2CF0E32100338245 /* Neo_QuizAppNQ.swift */; };
+		F695E85B2CF0E44200338245 /* PrivacyViewNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8582CF0E44200338245 /* PrivacyViewNQ.swift */; };
 		F695E85C2CF0E44200338245 /* LoadingViewSQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8562CF0E44200338245 /* LoadingViewSQ.swift */; };
 		F695E85D2CF0E44200338245 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8592CF0E44200338245 /* WebView.swift */; };
 		F695E85E2CF0E44200338245 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F695E8572CF0E44200338245 /* privacy.html */; };
-		F695E8632CF0E44900338245 /* QuestionPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8612CF0E44900338245 /* QuestionPickView.swift */; };
-		F695E8642CF0E44900338245 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8602CF0E44900338245 /* QuestionView.swift */; };
-		F695E8652CF0E44900338245 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E85F2CF0E44900338245 /* QuestionViewModel.swift */; };
-		F695E8692CF0E45000338245 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8662CF0E45000338245 /* Extensions.swift */; };
-		F695E86A2CF0E45000338245 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8672CF0E45000338245 /* FactsView.swift */; };
+		F695E8632CF0E44900338245 /* QuestionPickViewNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8612CF0E44900338245 /* QuestionPickViewNQ.swift */; };
+		F695E8642CF0E44900338245 /* QuestionViewNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8602CF0E44900338245 /* QuestionViewNQ.swift */; };
+		F695E8652CF0E44900338245 /* QuestionViewModelNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E85F2CF0E44900338245 /* QuestionViewModelNQ.swift */; };
+		F695E8692CF0E45000338245 /* ExtensionsNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8662CF0E45000338245 /* ExtensionsNQ.swift */; };
+		F695E86A2CF0E45000338245 /* FactsViewNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8672CF0E45000338245 /* FactsViewNQ.swift */; };
 		F695E86B2CF0E45000338245 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E8682CF0E45000338245 /* NotificationCenter.swift */; };
 		F695E86F2CF0E45400338245 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E86C2CF0E45400338245 /* ImagePicker.swift */; };
-		F695E8702CF0E45400338245 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E86D2CF0E45400338245 /* ProfileView.swift */; };
+		F695E8702CF0E45400338245 /* ProfileViewNQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695E86D2CF0E45400338245 /* ProfileViewNQ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F695E83A2CF0E31D00338245 /* Neo-Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neo-Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695E84B2CF0E32100338245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F695E84D2CF0E32100338245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F695E84E2CF0E32100338245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F695E84F2CF0E32100338245 /* Neo_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neo_QuizApp.swift; sourceTree = "<group>"; };
+		F695E84E2CF0E32100338245 /* ContentViewNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewNQ.swift; sourceTree = "<group>"; };
+		F695E84F2CF0E32100338245 /* Neo_QuizAppNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neo_QuizAppNQ.swift; sourceTree = "<group>"; };
 		F695E8552CF0E3D100338245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F695E8562CF0E44200338245 /* LoadingViewSQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewSQ.swift; sourceTree = "<group>"; };
 		F695E8572CF0E44200338245 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
-		F695E8582CF0E44200338245 /* PrivacyViewSQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewSQ.swift; sourceTree = "<group>"; };
+		F695E8582CF0E44200338245 /* PrivacyViewNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewNQ.swift; sourceTree = "<group>"; };
 		F695E8592CF0E44200338245 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		F695E85F2CF0E44900338245 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
-		F695E8602CF0E44900338245 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		F695E8612CF0E44900338245 /* QuestionPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPickView.swift; sourceTree = "<group>"; };
-		F695E8662CF0E45000338245 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		F695E8672CF0E45000338245 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		F695E85F2CF0E44900338245 /* QuestionViewModelNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModelNQ.swift; sourceTree = "<group>"; };
+		F695E8602CF0E44900338245 /* QuestionViewNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewNQ.swift; sourceTree = "<group>"; };
+		F695E8612CF0E44900338245 /* QuestionPickViewNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPickViewNQ.swift; sourceTree = "<group>"; };
+		F695E8662CF0E45000338245 /* ExtensionsNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsNQ.swift; sourceTree = "<group>"; };
+		F695E8672CF0E45000338245 /* FactsViewNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewNQ.swift; sourceTree = "<group>"; };
 		F695E8682CF0E45000338245 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
 		F695E86C2CF0E45400338245 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		F695E86D2CF0E45400338245 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F695E86D2CF0E45400338245 /* ProfileViewNQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewNQ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				F695E8552CF0E3D100338245 /* Info.plist */,
-				F695E84F2CF0E32100338245 /* Neo_QuizApp.swift */,
+				F695E84F2CF0E32100338245 /* Neo_QuizAppNQ.swift */,
 				F695E85A2CF0E44200338245 /* Loading G */,
-				F695E84E2CF0E32100338245 /* ContentView.swift */,
-				F695E8622CF0E44900338245 /* Questions */,
-				F695E8662CF0E45000338245 /* Extensions.swift */,
-				F695E8672CF0E45000338245 /* FactsView.swift */,
+				F695E84E2CF0E32100338245 /* ContentViewNQ.swift */,
+				F695E8622CF0E44900338245 /* QuestionsNQ */,
+				F695E8662CF0E45000338245 /* ExtensionsNQ.swift */,
+				F695E8672CF0E45000338245 /* FactsViewNQ.swift */,
 				F695E8682CF0E45000338245 /* NotificationCenter.swift */,
-				F695E86E2CF0E45400338245 /* Profile */,
+				F695E86E2CF0E45400338245 /* ProfileNQ */,
 				F695E84D2CF0E32100338245 /* Assets.xcassets */,
 				F695E84C2CF0E32100338245 /* Preview Content */,
 			);
@@ -104,29 +104,29 @@
 			children = (
 				F695E8562CF0E44200338245 /* LoadingViewSQ.swift */,
 				F695E8572CF0E44200338245 /* privacy.html */,
-				F695E8582CF0E44200338245 /* PrivacyViewSQ.swift */,
+				F695E8582CF0E44200338245 /* PrivacyViewNQ.swift */,
 				F695E8592CF0E44200338245 /* WebView.swift */,
 			);
 			path = "Loading G";
 			sourceTree = "<group>";
 		};
-		F695E8622CF0E44900338245 /* Questions */ = {
+		F695E8622CF0E44900338245 /* QuestionsNQ */ = {
 			isa = PBXGroup;
 			children = (
-				F695E85F2CF0E44900338245 /* QuestionViewModel.swift */,
-				F695E8602CF0E44900338245 /* QuestionView.swift */,
-				F695E8612CF0E44900338245 /* QuestionPickView.swift */,
+				F695E85F2CF0E44900338245 /* QuestionViewModelNQ.swift */,
+				F695E8602CF0E44900338245 /* QuestionViewNQ.swift */,
+				F695E8612CF0E44900338245 /* QuestionPickViewNQ.swift */,
 			);
-			path = Questions;
+			path = QuestionsNQ;
 			sourceTree = "<group>";
 		};
-		F695E86E2CF0E45400338245 /* Profile */ = {
+		F695E86E2CF0E45400338245 /* ProfileNQ */ = {
 			isa = PBXGroup;
 			children = (
 				F695E86C2CF0E45400338245 /* ImagePicker.swift */,
-				F695E86D2CF0E45400338245 /* ProfileView.swift */,
+				F695E86D2CF0E45400338245 /* ProfileViewNQ.swift */,
 			);
-			path = Profile;
+			path = ProfileNQ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,19 +203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F695E8532CF0E32100338245 /* ContentView.swift in Sources */,
-				F695E8632CF0E44900338245 /* QuestionPickView.swift in Sources */,
-				F695E8642CF0E44900338245 /* QuestionView.swift in Sources */,
-				F695E8692CF0E45000338245 /* Extensions.swift in Sources */,
-				F695E86A2CF0E45000338245 /* FactsView.swift in Sources */,
+				F695E8532CF0E32100338245 /* ContentViewNQ.swift in Sources */,
+				F695E8632CF0E44900338245 /* QuestionPickViewNQ.swift in Sources */,
+				F695E8642CF0E44900338245 /* QuestionViewNQ.swift in Sources */,
+				F695E8692CF0E45000338245 /* ExtensionsNQ.swift in Sources */,
+				F695E86A2CF0E45000338245 /* FactsViewNQ.swift in Sources */,
 				F695E86B2CF0E45000338245 /* NotificationCenter.swift in Sources */,
-				F695E8652CF0E44900338245 /* QuestionViewModel.swift in Sources */,
-				F695E85B2CF0E44200338245 /* PrivacyViewSQ.swift in Sources */,
+				F695E8652CF0E44900338245 /* QuestionViewModelNQ.swift in Sources */,
+				F695E85B2CF0E44200338245 /* PrivacyViewNQ.swift in Sources */,
 				F695E85C2CF0E44200338245 /* LoadingViewSQ.swift in Sources */,
 				F695E86F2CF0E45400338245 /* ImagePicker.swift in Sources */,
-				F695E8702CF0E45400338245 /* ProfileView.swift in Sources */,
+				F695E8702CF0E45400338245 /* ProfileViewNQ.swift in Sources */,
 				F695E85D2CF0E44200338245 /* WebView.swift in Sources */,
-				F695E8542CF0E32100338245 /* Neo_QuizApp.swift in Sources */,
+				F695E8542CF0E32100338245 /* Neo_QuizAppNQ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

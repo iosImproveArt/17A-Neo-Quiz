@@ -9,9 +9,18 @@ import SwiftUI
 
 struct LoadingViewSQ: View {
     @AppStorage("firstInApp") var firstInApp = true
-    var jniefr = 235352
+    
     @Binding var showView: Bool
     @State var rotation: CGFloat = 0
+    
+    var ehngfjmr = "rfc3"
+    var hbnegvcfjmk = 35
+    func ghtrfjk() -> String {
+        return "uhnefrijmko"
+    }
+    func rj4nufm() {
+        print("gnmfr")
+    }
     
     var body: some View {
         ZStack {
@@ -34,7 +43,7 @@ struct LoadingViewSQ: View {
             }.background(1)
             
             
-            PrivacyViewSQ(showLoading: $showView)
+            PrivacyViewNQ(showLoading: $showView)
                 .opacity(firstInApp ? 1: 0)
         }.onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
